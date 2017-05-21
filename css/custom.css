@@ -1,0 +1,192 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    z-index: 0;
+}
+
+body{
+    background-color: #171717;
+    color: #fff; 
+}
+footer{
+    text-align: center;
+}
+h1{
+    font-family: 'Dosis', sans-serif; 
+}
+
+h2{
+    font-size: 25px;
+    color: #027cb4;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #027cb4;
+    text-decoration: none;
+}
+
+hr{
+    height: 1px;
+    color: #027cb4;
+    background-color: #027cb4;
+    border: none;
+}
+
+span{
+    font-style: italic;
+}
+
+.amountChar{
+    max-width: 60ch;
+}
+
+#smallH1{
+    color: #027cb4;
+}
+
+#portfolioDiv{
+    text-align: center;
+}
+
+#portfolioPicture{
+    width: 252px;
+    height: 303px;
+}
+
+.programs{
+    overflow: auto;
+}
+
+.programName{
+    font-size: 20px;
+    width: 120px;
+    float: left;
+}
+
+.star{
+    margin-top: 3px;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+}
+
+
+.aboutMe{
+    margin-top: 0px;
+    color: white;
+}
+
+#greetingsPara{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#facebookImg, #linkedInImg, #artstationImg, #cvImage{
+    height: 30px; 
+    width: 30px;
+}
+
+#artstationImg{
+    
+}
+
+#facebookImg:hover{
+    content: url("../images/facebook_hover.png")
+}
+
+#linkedInImg:hover{
+    content: url("../images/linkedIn_hover.png")
+}
+
+#artstationImg:hover{
+    content: url("../images/artstation_hover.png");
+}
+
+#cvImage:hover{
+    content: url("../images/cv_hover.png");
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:7px !important; 
+    padding-bottom:0 !important;
+    height: 35px;
+}
+.navbar {
+    min-height:28px 
+    !important;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+.navbar-inverse{
+	background-color: #333;
+}
+
+.navbar .brand, .navbar .nav > li > a {
+    color: #caeeee;
+    background-color: #333;
+}
+
+.navbar .brand, .navbar .nav > li > a:hover {
+    color: #caeeee;
+    background-color: #027cb4;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #caeeee;
+    background-color: #027cb4;
+}
+
+ .navbar-inverse .navbar-nav .open .dropdown-menu>li>a,.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #333;
+    color:#caeeee;
+  }
+
+.iframes {
+    border-radius: 5px;
+    width: 100%
+    height: auto;
+}
+
+.img-responsive{
+    width: 100%
+    height: auto;
+    border-radius: 5px;
+}
+
+.carousel .item {
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0);
+    overflow: hidden;
+}
+
+.carousel-control {
+    border-radius: 10px;
+}
+
+.carousel-indicators .active{
+    background-color: #027cb4;
+}
+
+#headern{
+    position: fixed;
+    margin-top: 0;
+    z-index: 1;
+    background-color: #171717;
+    margin-bottom: 0px;
+}
+
+.spacer{
+    margin-top: 105px;
+}
+
+#menuRight{
+    float: right;
+}
+
